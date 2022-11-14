@@ -1,0 +1,35 @@
+
+create database HGS_SCHOOL;
+
+create table student (
+   Name varchar(25),
+   Class int,
+   Roll_No int,
+   Section char(1),
+   Phone char(12),
+    Address Varchar(40));
+    
+create table Teacher (
+   Name varchar(25),
+   Subject varchar(20),
+   Post varchar(20),
+   Salary int,
+   Phone char(12),
+    Address Varchar(40));
+    
+   create table Fees (
+   Name varchar(25),
+   Class int,
+   Roll_No int,
+   Section char(1),
+   Months char(10),
+   Fees int,
+   Date varchar(10));
+   
+   create table Attenddence(
+   Date varchar(10),
+   Class int,
+   No_Ab_Stu int);
+   
+   
+   
